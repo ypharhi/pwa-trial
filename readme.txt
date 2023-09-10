@@ -125,6 +125,39 @@
 
                 That's it! Your PWA should now be live on GitHub Pages. If you make any updates to your project, they'll automatically be reflected on the website after you push the changes to GitHub.
 
+
+                ...
+                ...
+
+
+                ## Why GitHub Pages is Not Recommended for Production
+
+                ### 1. Limited Features
+                - Only for static websites; doesn't support server-side scripting.
+
+                ### 2. No Server-Side Control
+                - Lack of control over server settings, redirects, and headers.
+
+                ### 3. Rate Limits
+                - Limited capacity for high-traffic websites.
+
+                ### 4. No SLA
+                - No Service Level Agreement for uptime or support.
+
+                ### 5. Limited Authentication
+                - No built-in features for advanced access control.
+
+                ### 6. Caching and Performance
+                - Less control over performance optimizations.
+
+                ### 7. Customization
+                - Limited environment customization for specialized needs.
+
+                ### 8. Data Compliance and Security
+                - May not meet data storage and security regulations for businesses.
+
+                Due to these limitations, GitHub Pages is generally not recommended for larger-scale, complex, or mission-critical production use-cases.
+
             ]]
 
     ### Static File Hosting Services
