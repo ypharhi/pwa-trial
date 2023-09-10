@@ -89,6 +89,43 @@
 [Hosting overview]
 
     ## Hosting Options for Progressive Web App (PWA)
+        * for now we using github pages: https://ypharhi.github.io/pwa-trial/  
+
+            [[  ...
+
+                ## Deployment Steps for GitHub Pages
+
+                ### Step 1: Make Your Repository Public (if necessary)
+                1. Go to your GitHub repository at [https://github.com/ypharhi/pwa-trial](https://github.com/ypharhi/pwa-trial).
+                2. Click on "Settings" near the bottom of the sidebar on the right.
+                3. Scroll down to the "Danger Zone" section at the bottom and click on "Change repository visibility."
+                4. Follow the instructions to make your repository public.
+
+                ### Step 2: Set Up GitHub Pages
+                1. In your repository's "Settings" tab, scroll down to the "GitHub Pages" section.
+                2. Under "Source," select the branch that holds your PWA files (usually `main` or `master`).
+                3. Choose the folder where your PWA files reside. This is often the root ("/") or a `/docs` folder if you've organized your project that way.
+                4. Click "Save."
+
+                ### Step 3: Verify Deployment
+                1. After you've saved your changes, GitHub will take a moment to deploy your site.
+                2. You'll then be given a URL where your site is hosted, which will look something like [https://ypharhi.github.io/pwa-trial](https://ypharhi.github.io/pwa-trial).
+                3. Open that URL in a browser to verify that your PWA is live and functioning correctly.
+
+                ### Step 4: Add Custom Domain (Optional)
+                1. If you have a custom domain that you'd like to use, you can add it in the "GitHub Pages" section under "Custom domain."
+                2. Follow the instructions provided to point your domain's DNS settings to GitHub.
+
+                ### Step 5: Enable HTTPS (Strongly Recommended)
+                1. After setting up your custom domain, you can enforce HTTPS for added security.
+                2. This option is available under the "GitHub Pages" section.
+                3. Make sure the "Enforce HTTPS" checkbox is checked.
+
+                > **Note**: Remember that service workers and other PWA features often require HTTPS, so it's a good practice to enforce it.
+
+                That's it! Your PWA should now be live on GitHub Pages. If you make any updates to your project, they'll automatically be reflected on the website after you push the changes to GitHub.
+
+            ]]
 
     ### Static File Hosting Services
 
