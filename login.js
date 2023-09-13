@@ -25,7 +25,9 @@ function performLogin() {
                     if (data.msg) {
                         alert(data.msg);
                     } else {
-                        alert("Login successful");
+                        //"Login successful"
+                        // Navigate to another page
+                        window.location.href = "notes_page.html";
                     }
     })
     .catch(error => console.error('Error:', error));
